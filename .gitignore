@@ -1,11 +1,49 @@
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
+# generated
+*.[ado]
+*.o.tmp
+*.bc
+*.bc.tmp
+*.js
+*.wasm
+*.mem
+*.pyc
+
+# generated dirs
+boost
+*build*/
+/Bundles
+/build
+/build*
+/target
+/target.*
+/Testing
+
+# Xcode
+xcuserdata
+*.xcodeproj
+*.xcconfig
+
+# OS
+.DS_Store
+DerivedData
+IDEWorkspaceChecks.plist
+
+# Editor/IDE
+*~
+.idea
+__pycache__/
+
+# Eclipse
+.cproject
+.project
+
+tmp
+*.db
+*.opendb
+.suo
+.vscode/
+.vscode
+.vs/
+*.aps
+
+*.user 
